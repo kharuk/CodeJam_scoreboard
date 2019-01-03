@@ -1,0 +1,25 @@
+.wrapper, .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cell {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.user:hover {
+    background-color: #b1ff6d;
+}
+
+.form {
+    margin: 20px;
+}
